@@ -1,24 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import LOGO from '../asserts/logo.png';
 
 const Navbar = () => {
     return (
-        // <nav className="bg-gray-800 p-4">
-        //     <div className="container mx-auto flex justify-between items-center">
-        //         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        //             <img src={LOGO} className="h-12" alt="NASA Explorer" />
-        //             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NASA Explorer</span>
-        //         </a>
-        //         <div>
-        //             <Link to="/" className="text-white px-3">Home</Link>
-        //             <Link to="/apod" className="text-white px-3">APOD</Link>
-        //             <Link to="/mars-rover" className="text-white px-3">Mars Rover</Link>
-        //         </div>
-        //     </div>
-        // </nav >
-
-
         <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-800">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">

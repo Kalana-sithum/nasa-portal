@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import NasaAPI from '../api/NasaAPI';
 import Navbar from '../components/Navbar';
-import BACKGROUND from '../asserts/bg.jpg';
 
 const Apod = () => {
     const [apod, setApod] = useState(null);
