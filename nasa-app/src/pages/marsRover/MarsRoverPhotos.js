@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import NasaAPI from '../api/NasaAPI';
-import Navbar from '../components/Navbar';
+import NasaAPI from '../../api/NasaAPI';
+import Navbar from '../../components/navbar/Navbar';
 
 const MarsRoverPhotos = () => {
     const [photos, setPhotos] = useState([]);

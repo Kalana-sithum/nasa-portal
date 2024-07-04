@@ -1,6 +1,6 @@
 import React from 'react';
-import COVER from '../asserts/coverimg.jpg';
-import Navbar from '../components/Navbar';
+import COVER from '../../asserts/coverimg.jpg';
+import Navbar from '../../components/navbar/Navbar';
 
 const Home = () => {
     return (
