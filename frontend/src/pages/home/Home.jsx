@@ -1,5 +1,5 @@
 import React from 'react';
-import COVER from '../../asserts/coverimg.jpg';
+import COVER from '../../assets/coverimg.jpg';
 import Navbar from '../../components/navbar/Navbar';
 
 const Home = () => {
