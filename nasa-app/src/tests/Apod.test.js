@@ -2,7 +2,7 @@ import React from 'react';
 import { render, waitFor } from '@testing-library/react';
 
 // Import the component to be tested
-import Apod from '../pages/Apod'; // Adjust the path based on your project structure
+import Apod from '../pages/apod/Apod'; // Adjust the path based on your project structure
 
 // Mock NasaAPI module
 jest.mock('../api/NasaAPI', () => ({
